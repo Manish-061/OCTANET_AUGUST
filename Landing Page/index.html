@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet"/>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="navbar">
+            <div class="nav_header">
+                <div class="navlogo">
+                    <a href="#home">WanderWay<span>.in</span></a>
+                </div>
+                <div class="nav_menu_button" id="menu_button">
+                    <i class="ri-menu-line"></i>
+                </div>
+            </div>
+
+            <ul class="nav_links" id="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#tour">Tour</a></li>
+                <li><a href="#package">Package</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="main">
+        <div class="container">
+            <div class="content">
+                <h1>Plan Your<br>Adventure</h1>
+                <h4>Travel the World</h4>
+                <h2>GET 10% OFF - On Your First Adventure</h2>
+                <h6>Code : <span>"FirstAdventure"</span></h6>
+
+                <form action="/">
+                    <input type="text" name="destination" placeholder="Choose Destination" list="destination-list">
+                    <datalist id="destination-list">
+                        <option value="Paris">
+                        <option value="New York">
+                        <option value="Tokyo">
+                        <option value="Sydney">
+                        <option value="London">
+                        <option value="Rome">
+                        <option value="Dubai">
+                    </datalist>
+                    
+                    <button type="submit"><i class="ri-search-line"></i></button>
+                </form>
+
+                <p>
+                   " We are dedicated to revealing the marvels of our diverse world and sharing them with you. Our mission is to ignite a sense of discovery and celebrate the stories that make our planet unique. Join us on a journey to explore breathtaking destinations, and create unforgettable memories. Together, let's embrace the beauty and diversity of every corner of the earth."
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer_container">
+            <div class="socials">
+                <span>
+                    <a href="#"><i class="ri-facebook-fill"></i></a>
+                </span>
+                <span>
+                    <a href="#"><i class="ri-twitter-fill"></i></a>
+                </span>
+                <span>
+                    <a href="#"><i class="ri-instagram-line"></i></a>
+                </span>
+                <span>
+                    <a href="#"><i class="ri-youtube-fill"></i></a>
+                </span>
+                <span id="copyright">
+                    <p>All &copy; 2024 WanderWay.in</p>
+                </span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
