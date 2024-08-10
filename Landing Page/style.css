@@ -237,6 +237,52 @@ nav {
     color: var(--white);
     line-height: 1.75rem;
   }
+
+  section.services {
+   background-color: rgb(12, 12, 12);
+   padding: 1.5rem;
+  }
+  .services-head  {
+    color: var(--white);
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 1rem;
+    margin-bottom: 6rem;
+    font-weight: bold;
+  }
+  .card img {
+    width: 100px;
+    background:var(--white);
+  }
+  section.services .card-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 2rem;
+  }
+  section.services .card-grid .card {
+    background: var(--primary-color);
+    padding: 3rem 2rem;
+    position: relative;
+    text-align: center;
+    transition: all 0.2s ease;
+  }
+  section.services .card-grid .card img {
+    position: absolute;
+    top: -1.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  section.services .card-grid .card p {
+    font-family: "Roboto", sans-serif;
+    color: var(--white);
+    line-height: 1.6;
+  }
+  section.services .card-grid .card:hover {
+    background: var(--primary);
+  }
+  section.services .card-grid .card:hover p {
+    color: var(--secondary-color);
+  }
   
 .footer_container {
     max-width: 100%;
@@ -250,7 +296,7 @@ nav {
 }
   
   .socials a {
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: var(--secondary-color);
 }
   
