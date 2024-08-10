@@ -6,6 +6,9 @@ Welcome to the repository for my internship tasks at OctaNet Private Limited. Th
 
 # Task 1: Landing Page for Travel Website
 
+# Task Status
+Completed
+
 Description:~ 
 
 This task involves creating a landing page for a travel website called WanderWay.in. The landing page is designed to be visually appealing and user-friendly, providing visitors with an overview of the services and offers available. It features a responsive navigation menu, a main section with promotional information, and a footer with social media links.
