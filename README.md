@@ -76,7 +76,7 @@ This project is a simple and interactive "Task Organizer" web application that a
 ![Task Completed](Screenshots/Task_Completed.png)
 
 # Editing a Task
-![Editing a Task](Screenshots/add-task.png)
+![Editing a Task](Screenshots/Task_Editing.png)
 
 # Go to Task Organizer
 cd To_Do_List
