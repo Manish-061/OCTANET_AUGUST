@@ -140,18 +140,6 @@ button:hover {
     background-color: #FF8C00;
 }
 
-.priority-high {
-    border-left: 5px solid #f44336;
-}
-
-.priority-medium {
-    border-left: 5px solid #FFA500;
-}
-
-.priority-low {
-    border-left: 5px solid #4CAF50;
-}
-
 @media screen and (max-width: 480px) {
     .container {
         width: 100%;
