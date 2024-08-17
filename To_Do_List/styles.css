@@ -13,7 +13,7 @@ body {
 }
 
 .container {
-    max-width: 500px;
+    max-width: 600px;
     width: 90%;
     margin: 30px auto;
     padding: 20px;
@@ -26,21 +26,23 @@ h1 {
     text-align: center;
     color: black;
     font-size: 2rem;
+    margin-bottom: 20px;
 }
 
 #task-form {
     display: flex;
     margin-bottom: 1rem;
     flex-wrap: wrap;
+    gap: 10px;
 }
 
-#task-input {
+#task-input, #deadline-input, #priority-input, #label-input {
     flex-grow: 1;
     padding: 10px;
     font-size: 16px;
     border: 1px solid #ddd;
     border-radius: 4px;
-    min-width: 200px;
+    min-width: 150px;
 }
 
 button {
@@ -51,8 +53,6 @@ button {
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    margin-top: 0px;
-    margin-left: 4px;
 }
 
 button:hover {
@@ -68,16 +68,17 @@ button:hover {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: center;
-    padding: 10px;
+    align-items: flex-start;
+    padding: 15px;
     background-color: #f9f9f9;
     border: 1px solid #ddd;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: opacity 0.3s ease;
 }
 
 .task-item.completed {
-    text-decoration: line-through;
     opacity: 0.8;
 }
 
@@ -92,6 +93,13 @@ button:hover {
     opacity: 0.6;
 }
 
+.task-deadline, .task-priority, .task-label {
+    font-size: 0.9em;
+    color: #666;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
 .task-actions {
     display: flex;
     flex-wrap: wrap;
@@ -99,9 +107,11 @@ button:hover {
 }
 
 .task-actions button {
-    margin: 5px;
-    padding: 5px 10px;
+    margin: 3px;
+    padding: 8px 12px;
     font-size: 14px;
+    border-radius: 3px;
+    transition: background-color 0.3s ease;
 }
 
 .edit-btn {
@@ -130,9 +140,21 @@ button:hover {
     background-color: #FF8C00;
 }
 
+.priority-high {
+    border-left: 5px solid #f44336;
+}
+
+.priority-medium {
+    border-left: 5px solid #FFA500;
+}
+
+.priority-low {
+    border-left: 5px solid #4CAF50;
+}
+
 @media screen and (max-width: 480px) {
     .container {
-        width: 95%;
+        width: 100%;
         padding: 10px;
     }
 
@@ -144,7 +166,7 @@ button:hover {
         flex-direction: column;
     }
 
-    #task-input {
+    #task-input, #deadline-input, #priority-input, #label-input {
         width: 100%;
         margin-bottom: 10px;
     }
@@ -171,5 +193,7 @@ button:hover {
     .task-actions button {
         flex-grow: 1;
         margin: 2px;
+        padding: 10px;
+        font-size: 12px;
     }
 }

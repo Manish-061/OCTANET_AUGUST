@@ -33,15 +33,16 @@ JavaScript: The JavaScript file for interactive Navbar.
 
 ![Landing Page Screenshot](Screenshots/LandingPage.png)
 
+# Go to Landing Page
+cd LandingPage/index.html
 
 
-
-# Task 2: To-do List
+# Task 2: To-do List(Task Organizer)
 # Task Status - Completed
 
 ## Description
 
-This project is a simple and interactive To-Do List web application that allows users to manage their daily tasks efficiently. Users can add new tasks, mark them as completed, edit existing tasks, and delete tasks. The application is designed with a user-friendly interface, ensuring a seamless experience for managing tasks.
+This project is a simple and interactive "Task Organizer" web application that allows users to manage their daily tasks efficiently. Users can add new tasks, mark them as completed, edit existing tasks, delete tasks and also user can set priority and deadline for the task. The application is designed with a user-friendly interface, ensuring a seamless experience for managing tasks.
 
 # Features
 
@@ -49,6 +50,7 @@ This project is a simple and interactive To-Do List web application that allows 
 - Mark Tasks as Completed: Tasks can be marked as completed by clicking on them, helping users track their progress.
 - Edit Existing Tasks: Users have the ability to edit the description of tasks if needed.
 - Delete Tasks: Unnecessary tasks can be removed from the list with a simple click.
+- Persistent Storage: Tasks are stored in the browser's local storage, so they persist even after refreshing the page.
 
 # Technology Stack
 
@@ -65,7 +67,19 @@ This project is a simple and interactive To-Do List web application that allows 
 
 # Screenshots
 
-![To-Do List Screenshot](Screenshots/To-Do.png)
+![Task Organizer Screenshot](Screenshots/Main_Interface.png)
+
+# Adding a Task
+![Adding a Task](Screenshots/Task_Added.png)
+
+# Task Marked as Completed
+![Task Completed](Screenshots/Task_Completed.png)
+
+# Editing a Task
+![Editing a Task](Screenshots/add-task.png)
+
+# Go to Task Organizer
+cd To_Do_List
 
 # Acknowledgements
 
