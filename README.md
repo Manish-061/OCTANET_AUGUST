@@ -5,15 +5,13 @@ Welcome to the repository for my internship tasks at OctaNet Private Limited. Th
 # Task List
 
 # Task 1: Landing Page for Travel Website
-
-# Task Status
-Completed
+# Task Status - Completed
 
 Description:~ 
 
 This task involves creating a landing page for a travel website called WanderWay.in. The landing page is designed to be visually appealing and user-friendly, providing visitors with an overview of the services and offers available. It features a responsive navigation menu, a main section with promotional information, and a footer with social media links.
 
-Features:~
+# Features:~
 
 Responsive Navigation Bar: A navigation bar with links to different sections of the website, including Home, Tour, Package, Blog, and Contact Us.
 
@@ -25,8 +23,51 @@ Company Mission Statement: A brief paragraph that describes the company's dedica
 
 Footer with Social Media Links: A footer section that includes links to various social media platforms such as Facebook, Twitter, Instagram, and YouTube.
 
-# File Structure:~
+# Technology Stack
 
-`index.html`: The main HTML file for the landing page.
-`style.css`: The CSS file for styling the landing page.
-`index.js`: The JavaScript file for interactive Navbar.
+HTML: The main HTML file for the landing page.
+CSS: The CSS file for styling the landing page.
+JavaScript: The JavaScript file for interactive Navbar.
+
+# Screenshots
+
+![Landing Page Screenshot](Screenshots/LandingPage.png)
+
+
+
+
+# Task 2: To-do List
+# Task Status - Completed
+
+## Description
+
+This project is a simple and interactive To-Do List web application that allows users to manage their daily tasks efficiently. Users can add new tasks, mark them as completed, edit existing tasks, and delete tasks. The application is designed with a user-friendly interface, ensuring a seamless experience for managing tasks.
+
+# Features
+
+- Add New Tasks: Users can easily add new tasks to their to-do list.
+- Mark Tasks as Completed: Tasks can be marked as completed by clicking on them, helping users track their progress.
+- Edit Existing Tasks: Users have the ability to edit the description of tasks if needed.
+- Delete Tasks: Unnecessary tasks can be removed from the list with a simple click.
+
+# Technology Stack
+
+- HTML: Provides the structure and content of the web page.
+- CSS: Adds styling and layout to make the application visually appealing.
+- JavaScript: Implements the functionality and interactivity of the to-do list.
+
+# Usage
+
+- Add tasks by typing in the input field and pressing the "Add" button.
+- Click on a task to mark it as completed.
+- Edit a task by clicking on the "Edit" button next to it.
+- Delete a task by clicking on the "Delete" button.
+
+# Screenshots
+
+![To-Do List Screenshot](Screenshots/To-Do.png.png)
+
+# Acknowledgements
+
+- Thanks to OctaNet Private Limited for providing the opportunity to work on this project.
+
