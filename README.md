@@ -65,7 +65,7 @@ This project is a simple and interactive To-Do List web application that allows 
 
 # Screenshots
 
-![To-Do List Screenshot](Screenshots/To-Do.png.png)
+![To-Do List Screenshot](Screenshots/To-Do.png)
 
 # Acknowledgements
 
